@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: darkgray;
+        border: 5px solid rgb(66, 70, 126);
+        margin-top: auto;
+        border-radius: 10px;
+        box-shadow: -1px -1px 9px 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>My Contact Details</h1>
+    <hr size="5" />
+
+    <p>+358 045 800 8565</p>
+    <p>yusufmavi6868@gmail.com</p>
+    <hr />
+    <form
+      class=""
+      action="mailto:yusufmavi6868@gmail.com"
+      method="post"
+      enctype="text/plain"
+    >
+      <label>Your Name:</label>
+      <input type="text" name="yourName" value="" /><br />
+      <label>Your Email:</label>
+      <input type="email" name="yourEmail" value="" /><br />
+      <label>Your Message:</label><br />
+      <textarea
+        name="yourMessage"
+        cols="20"
+        rows="4"
+        maxlength="80"
+        placeholder="max 80 words"
+      >
+      </textarea>
+      <input type="submit" name="" />
+    </form>
+  </body>
+</html>
